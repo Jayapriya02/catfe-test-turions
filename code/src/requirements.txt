@@ -1,0 +1,6 @@
+playwright
+pytest
+behave
+openai
+requests
+allure-behave
