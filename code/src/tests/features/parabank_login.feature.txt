@@ -1,0 +1,6 @@
+Feature: Login to Parabank
+
+  Scenario: Successful Login
+    Given User is on the Parabank login page
+    When User enters "john" as username and "demo" as password
+    Then User should see the dashboard

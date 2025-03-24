@@ -1,6 +1,27 @@
+# Core dependencies
+fastapi
+uvicorn
+transformers
+torch
+huggingface_hub
+watchdog
+accelerate
+pyyaml
+optimum
+auto-gptq
+pymongo
+
+
+# Playwright for test automation
 playwright
-pytest
 behave
-openai
+
+# Testing dependencies
+pytest
+pytest-playwright
+pytest-bdd
+
+# Other utilities
+pydantic
+python-dotenv
 requests
-allure-behave
